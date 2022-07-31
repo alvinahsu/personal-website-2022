@@ -1,28 +1,30 @@
+import csforeach  from '../assets/png/csforeach.png'
+
 export const achievementData = {
-    bio : "Putting quantified achievements on a resume is great, but I just don’t work with hard numbers. I have no data to support the quality of my work. If you have lots of relevant experience, the heading statement of your resume will be a summary.",
+    bio : "It is important to me to continue to apply my skills outside of school. By doing extracurriculars, I am able to hone my skills and also learn new technologies. These are just some examples of that.",
     achievements : [
         {
             id : 1,
-            title : 'Google Cloud certification',
-            details : 'Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
+            title : 'TritonHacks',
+            details : 'Developed React website used by 100+ high school students to showcase TritonHack’s Hackathon',
+            date : 'Sept. 2021 - May 2022',
+            field : 'Developer',
+            image: 'https://raw.githubusercontent.com/tritonhacks/tritonhacks22/main/src/assets/Logo.png',
         },
         {
             id : 2,
-            title : 'AWS Certification',
-            details : 'Validate technical skills and cloud expertise to grow your career and business.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            title : 'CSForEach: Early Start',
+            details : 'Mentored a High School student on the basics of HTML/CSS/Javascript and built an educational website to teach students the basics of programming',
+            date : 'Oct. 2021 - Jan. 2022',
+            field : 'Mentor/Developer',
+            image : csforeach,
         },
         {
             id : 3,
-            title : 'Professional Data Engineer Certification',
-            details : 'Professional Data Engineers enable data-driven decision making by collecting, transforming, and publishing data.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
+            title : 'Competitive Programming',
+            details : 'Participated in coding contests (CodeForces, Google Kickstart, Google CodeJam) and regularly solves coding problems',
+            date : 'Jan. 2021',
+            field : 'Programmer',
             image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
         }
 

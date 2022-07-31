@@ -92,8 +92,6 @@ function ProjectPage() {
                                 name={project.projectName}
                                 desc={project.projectDesc}
                                 tags={project.tags}
-                                code={project.code}
-                                demo={project.demo}
                                 image={project.image} 
                             />
                         ))}
