@@ -1,4 +1,4 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/Alvin_Hsu_SWE_Resume_2023.pdf'
 import portrait from '../assets/jpg/portrait.JPG'
 
 export const headerData = {
